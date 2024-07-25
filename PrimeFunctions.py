@@ -9,7 +9,7 @@ Created on Sun May 26 14:27:17 2024
 from math import sqrt, log
 import matplotlib.pyplot as plt
 
-
+# prime numbers only divisible by 1 and themselves
 # Check if a number is prime
 def is_prime(n):
     
