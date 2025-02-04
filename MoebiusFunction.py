@@ -74,7 +74,9 @@ def factorization(n):
             factors.append(factor)
             num = num / factor
     
-            
+        if num == 1:
+            break
+          
     return factors
             
 
