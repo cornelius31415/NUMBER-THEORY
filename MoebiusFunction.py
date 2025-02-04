@@ -69,14 +69,13 @@ def factorization(n):
     
     factors = []
     num = n
-    while num != 1:
-        for factor in primes:
-            if num % factor == 0:
-                factors.append(factor)
-                num = num/factor
+    for factor in primeList:
+        while num % factor == 0:
+            factors.append(factor)
+            num = num / factor
     
             
-    return sorted(factors)
+    return factors
             
 
 
